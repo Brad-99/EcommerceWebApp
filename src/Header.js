@@ -1,9 +1,9 @@
-import React from 'react';
-import './Header.css'
+import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-<div classNmae='header'>
+<div classNmae="header">
 
     <img 
         className="logo"
