@@ -8,7 +8,7 @@ function Header() {
 
     <img 
         className="header__logo"
-        src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" />
+        src="https://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="Amazon Logo" />
 
     <div
         className='header__search'>
@@ -19,26 +19,29 @@ function Header() {
     </div>
     
     <div className="header__nav">
-        <div className="header__option1">
+        <div className="header__option">
             <span
             className='header__optionLineOne'>Hello Guest</span>
             <span
-            className='header__optionLineOne'>Sign In</span>
+            className='header__optionLineTwo'>Sign In</span>
         </div>
 
-        <div className="header__option2">
+        <div className="header__option">
             <span
-            className='header__optionLineOne'>Return</span>
+            className='header__optionLineOne'>Returns</span>
             <span
-            className='header__optionLineOne'>& Orders</span>
+            className='header__optionLineTwo'>& Orders</span>
         </div>
 
-        <div className="header__option3">
+        <div className="header__option">
             <span
             className='header__optionLineOne'>Your</span>
             <span
-            className='header__optionLineOne'>Prime</span>
+            className='header__optionLineTwo'>Prime</span>
         </div>
+
+
+
     </div>   
  </div>
   )
