@@ -22,7 +22,7 @@ function Product() {
        </div>
 
 
-       <button>Add to</button>
+       <button>Add to Basket</button>
     </div>
     );
 }
