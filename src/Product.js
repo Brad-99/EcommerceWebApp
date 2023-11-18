@@ -6,10 +6,12 @@ function Product() {
     <div className="product">
        <div className="product__info">
             <p>The lean startup</p>
+
             <p className="product__price">
                 <small>$</small>
                 <strong>19.99</strong>
             </p>
+
             <div className="product__rating">
                 <p>🌟</p>
             </div>
@@ -17,12 +19,14 @@ function Product() {
             <img 
             src="https://i.imgur.com/i7z5UIg.png"
             alt=""
+            width="100"
+            height="130"
             />
             
        </div>
 
-
        <button>Add to Basket</button>
+
     </div>
     );
 }
