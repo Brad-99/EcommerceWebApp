@@ -7,14 +7,20 @@ from "react-router-dom";
 function App() {
   return (
     // BEM
-
-    <div className="app">
-
-
-      <Header />
-      <Home />
-
-    </div>
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path="/checkout">
+            <Header />
+            <h1>I AM A CHECKOUT, SMASH THE LIKE BUTTON</h1>
+          </Route>
+          <Route path="/">
+            <Header />
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
