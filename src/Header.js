@@ -51,8 +51,6 @@ function Header() {
             header__basketCount">0</span>
          </div>
         </Link>
-
-
     </div>   
  </div>
   )
