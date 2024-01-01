@@ -10,13 +10,13 @@ function Login() {
     const signIn = e => {
         e.preventDefault()
 
-        // some fancy firebase login shitttt...
+        // some fancy firebase login stuff
     }
 
     const register = e => {
         e.preventDefault();
 
-        // do some fancy firebase register shit...
+        // do some fancy firebase register stuff
     }
 
   return (
